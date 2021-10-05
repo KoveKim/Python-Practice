@@ -16,5 +16,7 @@ elif op == "*":  # Multiply
     print(num1 * num2)
 elif op == "%":  # Mod
     print(num1 % num2)
+elif op == "^":  # Exponent
+    print(num1 ** num2)
 else:
     print("Please try again. Enter operator as symbol. Numbers only.")

@@ -6,7 +6,7 @@ def main(secret_word):  # Main game
     tries = 3
 
     while user_guess != secret_word:  # Run program until correct answer is given
-        user_guess = input("Guess the secret word! You get 3 tries: ")
+        user_guess = input("Guess the secret word! (Tries remaining: " + str(tries) + "): ")
 
         if user_guess == secret_word:
             print("Correct! You win!\n")
